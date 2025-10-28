@@ -1,0 +1,98 @@
+.vs-btn{ font-size: clamp(15px, 1.146vw, 22px);}
+.vs-btn span{ display: block; font-size: clamp(14px, 0.781vw, 15px); font-weight: 400; margin-top: 5px;}
+
+/* ___________________ Banner section start_______________________*/
+.banner-section{ position: relative; margin-bottom: 220px;}
+.banner-section .banner-sliders .single-slide .slide-box{ height: clamp(430px, 33.073vw, 635px); display: flex; justify-content: center; align-items: center; text-align: center; position: relative; z-index: 1;}
+.banner-section .banner-sliders .single-slide .slide-box::after{content: ''; height: 100%; width: 100%; position: absolute; left: 0; top: 0; background-color: #27477D; z-index: 2; opacity: 70%;}
+.banner-section .banner-sliders .single-slide .slide-box .content{ position: relative; z-index: 3; max-width: 930px; margin: 0 auto;}
+.banner-section .banner-sliders .single-slide .slide-box .content h1{ color: #fff; font-size: clamp(30px, 3.125vw, 60px); margin-bottom: clamp(14px, 1.042vw, 20px);}
+.banner-section .banner-sliders .single-slide .slide-box .content p{ font-size: clamp(14px, 1.042vw, 20px); color: #fff; font-weight: 500;}
+
+.banner-section .bottom-block{ position: absolute; bottom: -180px; width: 100%;}
+.banner-section .bottom-block .box-container{ display: grid; grid-template-columns: repeat(5, 1fr); gap: 24px; background-color: #fff; padding: clamp(14px, 1.042vw, 20px); border-radius: 10px; box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px;}
+.banner-section .bottom-block .box-container .box{ background-color: #27477D; padding: 9px; border-radius: 10px;}
+.banner-section .bottom-block .box-container .box .img-block{ height:clamp(98px, 12.760vw, 245px);}
+.banner-section .bottom-block .box-container .box .img-block img{ height: 100%; width: 100%; object-fit: cover; object-position: center; border-radius: 5px;}
+.banner-section .bottom-block .box-container .box h3{ color: #fff !important; font-size: clamp(17px, 1.250vw, 24px); text-align: center; margin: 0; margin-block: 10px 0;}
+/* ___________________ Banner section end_______________________*/
+
+.space,
+.space-top,
+.space-bottom{ padding-bottom: clamp(30px, 5.208vw, 100px) !important;}
+
+.facility-style1 .facility-text{ font-size: clamp(14px, 1.042vw, 20px); line-height: 1.3;}
+
+.service-card .sr-icon i{ font-size: 60px;}
+
+.footer1-logo img{ padding-left: 0;}
+
+.footer1-logo img{ background-color: transparent; }
+.footer1-logo::before{ display: none;}
+
+
+
+.row.vs-carousels.wow.fadeInUp.animated{ --bs-gutter-y:30px;}
+.header-top.bg-title.py-2.d-none.d-md-block{ display: block !important;}
+
+
+
+@media only screen and (orientation:landscape) {
+body { -webkit-text-size-adjust:none; }
+}
+@media only screen and (orientation:portrait) {
+body { -webkit-text-size-adjust:none; }
+}
+
+@media screen and (max-width: 1599px){
+	.header-main .logo-block{ justify-content: center; width: 100%; margin-bottom: 20px;}
+    .header-btn{ padding-left:0; }
+    .menu-style1 > ul > li > a{ padding: 0;}
+    .header-main{ padding-block: clamp(21px, 1.563vw, 30px);}
+}
+
+@media screen and (max-width: 1399px){
+	.header-btn { display: none !important; }
+    .menu-block-parents{ width: 100%;}
+    .menu-block-child{ justify-content: center !important;}
+}
+
+@media screen and (max-width: 1199px){
+	
+}
+@media screen and (max-width: 991px){
+    .header-main .logo-block{ margin-bottom: 0; width: initial;}
+    .menu-block-parents{ width: initial;}
+    .header-main{ padding-block: 0;}
+    .banner-section .bottom-block{ position: initial; padding-block: 30px 0;}
+    .banner-section{ margin-bottom: 0; }
+    .banner-section .bottom-block .box-container{ grid-template-columns: repeat(3,1fr);}
+}
+
+
+
+/*NEW GRID SYSTEM*/
+@media screen and (max-width:767px){
+    .banner-section .bottom-block .box-container{ grid-template-columns: repeat(2,1fr);}
+    .banner-section .bottom-block .box-container .box .img-block{ height: 150px;}
+    .service-card .sr-icon i{ font-size: 40px;}
+    
+}
+
+@media screen and (max-width:575px){
+
+}
+
+@media screen and (max-width:500px){
+    .header-top-info li{ display: block; margin-right: 0;}
+}
+
+@media screen and (max-width:400px){
+    .header1-logo{ max-width: 160px;}
+    .banner-section .bottom-block .box-container .box .img-block{ height: 200px;}
+    .banner-section .bottom-block .box-container{ grid-template-columns: repeat(1,1fr);}
+}
+
+@media screen and (max-width:350px){
+
+}
